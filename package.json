@@ -1,6 +1,6 @@
 {
   "name": "ke-views",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "第一个npm库",
   "main": "lib/tag-textarea.umd.min.js",
   "private": false,
