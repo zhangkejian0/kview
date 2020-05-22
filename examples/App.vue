@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <k-tagSlider v-model="value" class="aa"/>
+    <k-tagSlider v-model="value" :tags="['年','月','日']" class="tagSlider"/>
   </div>
 </template>
 
@@ -24,8 +24,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background: #ccc;
 }
-.aa{
-  width: 192px;
+.tagSlider{
+  width: 240px;
+  margin: 0 auto;
 }
 </style>
