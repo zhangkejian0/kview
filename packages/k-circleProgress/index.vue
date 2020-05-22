@@ -1,5 +1,5 @@
 <template>
-  <div class="circle-progress" :style="{
+  <div class="k-circle-progress" :style="{
     width: `${width}px`,
     height: `${width}px`,
   }">
@@ -118,8 +118,8 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
-.circle-progress {
+<style lang="less">
+.k-circle-progress {
   position: relative;
   .slot {
     position: absolute;

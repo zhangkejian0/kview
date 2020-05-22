@@ -1,6 +1,6 @@
 {
   "name": "ke-views",
-  "version": "0.1.4",
+  "version": "0.1.13",
   "description": "第一个npm库",
   "main": "lib/ke-views.umd.min.js",
   "private": false,
@@ -15,7 +15,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "less": "^3.11.1",
     "less-loader": "^6.1.0",
+    "node-less": "^1.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

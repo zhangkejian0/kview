@@ -8,6 +8,7 @@
 
 ```
     import keviews from 'ke-views'
+    import 'ke-views/lib/ke-views.css'
     Vue.use(keviews);
 ```
 

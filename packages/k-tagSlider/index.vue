@@ -1,5 +1,5 @@
 <template>
-    <div class="tagSlider">
+    <div class="k-tagSlider">
         <div class="slider-box" :style="{left: `${activeIndex * 100/tags.length}%`, width: `${100/tags.length}%`}"></div>
         <div class="tag" v-for="(item,index) in tags" :key="index" @click="clickItem(index)">{{item}}</div>
     </div>
@@ -39,8 +39,8 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
-.tagSlider{
+<style lang="less">
+.k-tagSlider{
     position: relative;
     background: #D8DEF3;
     height: 32px;

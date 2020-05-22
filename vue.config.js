@@ -1,15 +1,11 @@
-// vue.config.js
-
 module.exports = {
-    // 将 examples 目录添加为新的页面
-    pages: {
-      index: {
-        // page 的入口
-        entry: 'examples/main.js',
-        // 模板来源
-        template: 'public/index.html',
-        // 输出文件名
-        filename: 'index.html'
-      }
+  // 修改 src 为 examples
+  pages: {
+    index: {
+      entry: 'examples/main.js',
+      template: 'public/index.html',
+      filename: 'index.html'
     }
-  }
+  },
+  productionSourceMap: false
+}
