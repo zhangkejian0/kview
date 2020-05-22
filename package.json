@@ -1,8 +1,8 @@
 {
   "name": "ke-views",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "第一个npm库",
-  "main": "lib/tag-textarea.umd.min.js",
+  "main": "lib/ke-views.umd.min.js",
   "private": false,
   "license": "MIT",
   "author": "ark",
@@ -11,7 +11,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name tag-textarea --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name ke-views --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.4",

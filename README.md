@@ -18,7 +18,7 @@
     <k-tagSlider v-model="value" :tags="['年','月','日']"/>
 ```
 
-### 2、k-tagSlider 环形进度条，效果图如下
+### 2、k-circleProgress 环形进度条，效果图如下
 ![Image text](https://github.com/zhangkejian0/kview/blob/master/image/circleProgress.png)
 ```
     例如：
