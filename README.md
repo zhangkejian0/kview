@@ -2,11 +2,13 @@
 
 ## vue UI 组件，尚处于开发阶段，近期会根据需要不断更新
 
-## 注册 kview UI组件
+## npm 安装 kview UI组件
+
+  npm i ke-views -S
 
 ```
-    import TagTextarea from '../packages/index'
-    Vue.use(TagTextarea)
+    import keviews from 'ke-views'
+    Vue.use(keviews);
 ```
 
 ### 1、k-tagSlider 滑动按钮，效果图如下
