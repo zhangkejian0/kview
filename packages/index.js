@@ -2,10 +2,12 @@
 
 // 导入单个组件
 import tagSlider from './k-tagSlider/index'
+import circleProgress from './k-circleProgress/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
-    tagSlider
+    tagSlider,
+    circleProgress
 ]
 
 // 定义 install 方法
